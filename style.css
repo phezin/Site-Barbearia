@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    align-items: center;
+}
+
+.cabecalho{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    box-shadow: 0px 10px 15px -1px rgba(0,0,0,0.16);
+}
+
+.cabecalho-menu-item{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    text-shadow: 5px 5px 6px rgba(0,0, 0, 0.25);
+   
+}
+.cabecalho-menu-item:hover{
+    transform: scale(1.2);
+}
+
+.conteudo{
+    height: 768px;
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.conteudo-esquerdo{
+    width: 585px;
+}
+
+.conteudo-titulo{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.conteudo-texto{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    width: 485px;
+
+}
+
+.botao-agendar{
+    width: 250px;
+    height: 54px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+    border: none;
+}
+.botao-agendar:hover{
+    transform: scale(1.1);
+}
+
+.imagem-conteudo{
+    width: 585px;
+    height: 700px;
+}
+
+.logo-imagem{
+    width: 109px;
+    height: 69px;
+}
+
+.endereco{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.rodape{
+    width: 100%;
+    height: 186px;
+    background-color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 1px 50px 2px rgba(0,0,0,0.16);
+}
+
